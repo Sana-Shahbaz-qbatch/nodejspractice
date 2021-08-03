@@ -1,0 +1,30 @@
+Difference between C++ and JS function
+Answer: In C++ we cannot call a function without the specified arguments. 
+In JS a function can be called without the specified arguments
+
+Anonymous function two applications
+Answer: 1. Can be used as a callback function. 
+2. Can be used as a self executing function (this can be done by adding paranthesis to immediately execute the anonymous function)
+
+callback function
+A function which is called at a completion of some task, this prevents blocking and allows other code to run in meantime.
+It is also known as a function which is passed to another function as a parameter and calls it inside. 
+It makes sure that the function does not execute before task is complete. 
+
+frequently used lodash functions
+1. _.forEach
+iterats over an array similar to loop
+2. _.uniq
+gives the unique values removing the duplicates
+3. _.find 
+helps in finding the data from an array
+4. _.includes
+returns a boolean value if data is present or not
+5. _.Difference
+gives the difference between two arrays
+6. _.intersection 
+gives the common elements between two arrays
+
+Stringyfy JSON with correct indentation
+var str =  {name:'xyz', age:50, gender:'Male', company:'Qbatch'}
+JSON.Stringyfy(str, null, 2)
